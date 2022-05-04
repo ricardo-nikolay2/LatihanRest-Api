@@ -1,6 +1,31 @@
+[
 {
-   "nama" : "shandikak ",
+   "nama" : "shandika",
    "umur": 32,
    "nrp" : "043040023",
    "lulus" : true,
-}
+   "hobby" : [ 
+      "coding", 
+      "gaming"
+   ],
+   "pembimbing" : {
+      "pembimbing 1" : "Dodik Ferdiansyah",
+      "pembimbing 2" : "Erik Doank"
+   }
+ }, 
+ {
+   "nama" : "shandika",
+   "umur": 32,
+   "nrp" : "043040023",
+   "lulus" : true,
+   "hobby" : [ 
+      "coding", 
+      "gaming"
+   ],
+   "pembimbing" : {
+      "pembimbing 1" : "Dodik Ferdiansyah",
+      "pembimbing 2" : "Erik Doank"
+   }
+ }
+
+]

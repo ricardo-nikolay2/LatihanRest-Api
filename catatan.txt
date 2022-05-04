@@ -1,0 +1,49 @@
+Rest API #2 REST dan HTTP
+
+1. API jalur penghubung antara user dan akses data pada internet 
+2. REST API adalah penganturan nya
+3. JSON data yang dikirim dan diterima
+4. HTTP Method / verb
+	- GET mengambil data
+	- POST menambah data
+	- PUT mengubah data
+	- DELETE menghapus data
+
+Rest API #3 Apa itu JSON
+1. JSON  
+	- Format pertukaran data tesktual yang sangat ringan 
+	- sintaks yang sangat sederhana dibanding XML
+	- dibuat berdasarkan format Object JavaScript
+	- tipe file JSON memiliki ekstesnsi .json
+	
+
+2. ada 2 metode JSON di php
+	a. json_encode() mengubah array atau object menjadi json supaya bisa 	   diakses orang lain
+	b. json_decode() sebaliknya dari json_encode
+
+3. untuk mengakses Json dari tempat lain = file_get_contents()
+
+4. untuk mengubah standard encodingnya =  utf8_encode();
+
+5. mengubah string JSON menjadi array associative = json_dec6. ode();
+
+6. mengakses dengan javascript
+
+	a. JSON.stringify() = mengubah objek menjadi JSON
+	b. JSON.parse() = mengubah JSON menjadi objek 
+
+7. mengakses JSON 
+	a. ajax
+	b. XMLHTTPRequest
+	c. JQuery
+
+tipe data dari value JSON
+- Boolean = true / false 
+- Array = ["value 1", "Value 2", ...]
+- String = teks / unicode dan di bungkus dengan tanda kutip ""
+- Object = {"Key" : "Value"}
+- Number = integer / float 
+- Null  = null
+
+
+
